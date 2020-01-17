@@ -45,12 +45,14 @@
     enterOldPinLabel.numberOfLines = 0;
     enterOldPinLabel.font = [UIFont fontWithName:@"Helvetica-Bold" size:20];
     enterOldPinLabel.text = oldPinLabelText;
+    enterOldPinLabel.textColor = [enterOldPinLabel.backgroundColor colorWithAlphaComponent:0.3];
     
     UITextField *oldPinTextField = [[UITextField alloc] init];
     oldPinTextField.keyboardType = UIKeyboardTypeNumberPad;
     oldPinTextField.secureTextEntry = YES;
     oldPinTextField.font = [UIFont fontWithName:@"Helvetica-Bold" size:50];
     oldPinTextField.delegate = self;
+    oldPinTextField.textColor = [UIColor grayColor];
     
     UITextField *newPinTextField = [[UITextField alloc] init];
     newPinTextField.keyboardType = UIKeyboardTypeNumberPad;
@@ -58,6 +60,7 @@
     newPinTextField.font = [UIFont fontWithName:@"Helvetica-Bold" size:50];
     newPinTextField.delegate = self;
     newPinTextField.userInteractionEnabled = NO;
+    newPinTextField.textColor = [UIColor grayColor];
     
     UILabel *enterNewPinLabel = [[UILabel alloc]init];
     enterNewPinLabel.numberOfLines = 0;
@@ -71,6 +74,7 @@
     confirmPinTextField.font = [UIFont fontWithName:@"Helvetica-Bold" size:50];
     confirmPinTextField.delegate = self;
     confirmPinTextField.userInteractionEnabled = NO;
+    confirmPinTextField.textColor = [UIColor grayColor];
     
     UILabel *confirmPinLabel = [[UILabel alloc]init];
     confirmPinLabel.numberOfLines = 0;

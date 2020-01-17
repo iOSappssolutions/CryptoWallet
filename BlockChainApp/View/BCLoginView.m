@@ -42,12 +42,14 @@ static NSString * const confirmPinLabelText = @"Confirm 6 digit PIN number::";
     enterPinLabel.text = pinLabelText;
     enterPinLabel.numberOfLines = 0;
     enterPinLabel.font = [UIFont fontWithName:@"Helvetica-Bold" size:20];
+    enterPinLabel.textColor = [UIColor grayColor];
     
     UITextField *pinTextField = [[UITextField alloc] init];
     pinTextField.keyboardType = UIKeyboardTypeNumberPad;
     pinTextField.secureTextEntry = YES;
     pinTextField.font = [UIFont fontWithName:@"Helvetica-Bold" size:50];
     pinTextField.delegate = self;
+    pinTextField.textColor = [UIColor grayColor];
     
     UIToolbar* numberToolbar = [[UIToolbar alloc]init];
     numberToolbar.barStyle = UIBarStyleBlackTranslucent;
@@ -109,12 +111,14 @@ static NSString * const confirmPinLabelText = @"Confirm 6 digit PIN number::";
     confirmPinLabel.text = confirmPinLabelText;
     confirmPinLabel.numberOfLines = 0;
     confirmPinLabel.font = [UIFont fontWithName:@"Helvetica-Bold" size:20];
+    confirmPinLabel.textColor = [UIColor grayColor];
     
     UITextField *confirmPinTextField = [[UITextField alloc] init];
     confirmPinTextField.keyboardType = UIKeyboardTypeNumberPad;
     confirmPinTextField.secureTextEntry = YES;
     confirmPinTextField.font = [UIFont fontWithName:@"Helvetica-Bold" size:50];
     confirmPinTextField.delegate = self;
+    confirmPinTextField.textColor = [UIColor grayColor];
     
     UIToolbar* numberToolbar = [[UIToolbar alloc]init];
     numberToolbar.barStyle = UIBarStyleBlackTranslucent;

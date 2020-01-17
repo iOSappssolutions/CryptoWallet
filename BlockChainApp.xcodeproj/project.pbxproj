@@ -26,7 +26,6 @@
 		B0BF0B881F99EC4F0046A6BB /* BCLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BF0B871F99EC4F0046A6BB /* BCLoginView.m */; };
 		B0FE84A71F9A135F00602A9C /* A0SimpleKeychain+KeyPair.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FE846F1F9A135D00602A9C /* A0SimpleKeychain+KeyPair.m */; };
 		B0FE84A81F9A135F00602A9C /* A0SimpleKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FE84711F9A135D00602A9C /* A0SimpleKeychain.m */; };
-		B0FE84A91F9A135F00602A9C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0FE84721F9A135D00602A9C /* Info.plist */; };
 		B0FE84B51F9A168D00602A9C /* BCLoginData.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FE84B41F9A168D00602A9C /* BCLoginData.m */; };
 /* End PBXBuildFile section */
 
@@ -268,7 +267,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0FE84A91F9A135F00602A9C /* Info.plist in Resources */,
 				B0BF0B7C1F99E01F0046A6BB /* LaunchScreen.storyboard in Resources */,
 				B0BF0B791F99E01F0046A6BB /* Assets.xcassets in Resources */,
 				B0BF0B771F99E01F0046A6BB /* Main.storyboard in Resources */,
